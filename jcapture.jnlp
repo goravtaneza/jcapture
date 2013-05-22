@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<jnlp spec="1.0+" codebase="http://www.goravtaneza.com/" href="jcapture.jnlp">
+  <information>
+		<title>JCapture</title>
+		<vendor>Gorav Taneza</vendor>
+		<homepage href="http://www.goravtaneza.com/" />
+		<description>JCapture, pure Java screen capture!</description>
+	</information>
+	<security>
+		<all-permissions/>
+	</security>
+	<resources>
+		<j2se version="1.6+" />
+		<jar href="jcapture.jar" />
+	</resources>
+	<application-desc main-class="com.goravtaneza.jcapture.JCapture" />
+</jnlp>
