@@ -19,6 +19,13 @@ import javax.swing.event.MouseInputListener;
 
 import com.goravtaneza.jcapture.util.WindowHelper;
 
+/**
+ * 
+ * Implementation of the screen area capture frame
+ * 
+ * @author Gorav Taneza <tech@goravtaneza.com>
+ *
+ */
 @SuppressWarnings("serial")
 public class AreaCaptureFrame extends JFrame {
 	
@@ -34,7 +41,6 @@ public class AreaCaptureFrame extends JFrame {
 		setCursor(new Cursor(Cursor.CROSSHAIR_CURSOR));
 		WindowHelper.resizeFullScreen(this);
 		add(new DragPanel(this,image));
-		//setOpacity(0.4f);
 	}
 	
 	public static Rectangle getSelectedRect(){
@@ -121,16 +127,17 @@ class DragPanel extends JPanel implements MouseInputListener, ActionListener, IC
 
 	@Override
 	public void mouseEntered(MouseEvent e) {
-		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	public void mouseExited(MouseEvent e) {
-		// TODO Auto-generated method stub
 		
 	}
-	
+	/**
+	 * override paintComponent to draw rectangle, dimension string and
+	 * change location of the confirm button
+	 */
 	public void paintComponent(Graphics g) {
 		super.paintComponent(g);
 		g.drawImage(image,0,0,this);

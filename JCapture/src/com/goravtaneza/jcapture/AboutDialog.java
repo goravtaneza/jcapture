@@ -20,6 +20,13 @@ import javax.swing.JPanel;
 import com.goravtaneza.jcapture.util.BrowserLauncher;
 import com.goravtaneza.jcapture.util.WindowHelper;
 
+/**
+ * 
+ * This is an implementation of the About Dialog
+ * 
+ * @author Gorav Taneza <tech@goravtaneza.com>
+ *
+ */
 @SuppressWarnings("serial")
 public class AboutDialog extends JDialog implements ActionListener, MouseMotionListener, MouseListener, IConstants {
 	
@@ -51,7 +58,7 @@ public class AboutDialog extends JDialog implements ActionListener, MouseMotionL
 		    closeButton.setBounds(0, 0, 10, 10);
 		    bottomPanel.add(closeButton);
 			aboutLabel= new JLabel();
-			aboutLabel.setText("<html><b><center>JCapture</center></b><br><center>Version " + VERSION + "</center><br><center>(c) 2013 Gorav Taneza<br><br></center><a href=\"www.goravtaneza.com\">www.goravtaneza.com</a><br><br><center>All rights reserved.</center></html>");
+			aboutLabel.setText(ABOUT_DIALOG_MARKUP_START + VERSION + ABOUT_DIALOG_MARKUP_END);
 			topPanel.add(aboutLabel);
 			aboutLabel.addMouseListener(this);
 			aboutLabel.addMouseMotionListener(this);
@@ -75,7 +82,6 @@ public class AboutDialog extends JDialog implements ActionListener, MouseMotionL
 
 	@Override
 	public void mouseDragged(MouseEvent e) {
-		// TODO Auto-generated method stub
 		
 	}
 
@@ -107,25 +113,21 @@ public class AboutDialog extends JDialog implements ActionListener, MouseMotionL
 
 	@Override
 	public void mouseEntered(MouseEvent e) {
-		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void mouseExited(MouseEvent e) {
-		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	public void mousePressed(MouseEvent e) {
-		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	public void mouseReleased(MouseEvent e) {
-		// TODO Auto-generated method stub
 		
 	}
 

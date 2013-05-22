@@ -3,7 +3,12 @@ package com.goravtaneza.jcapture.util;
 import java.io.File;
 import javax.swing.filechooser.FileFilter;
 
- 
+ /**
+  * File filter implementation for the file chooser dialog
+  * 
+  * @author Gorav Taneza <tech@goravtaneza.com>
+  *
+  */
 public class ImageFilter extends FileFilter {
  
     //Accept all directories and all gif, jpg, tiff, or png files.

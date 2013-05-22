@@ -8,6 +8,13 @@ import java.awt.GraphicsEnvironment;
 import java.awt.Toolkit;
 import java.awt.Window;
 
+/**
+ * 
+ * Helper class to center, resize among other awt/window utility methods
+ * 
+ * @author Gorav Taneza <tech@goravtaneza.com>
+ *
+ */
 public class WindowHelper {
 
 	public static void centreWindow(Window frame) {
@@ -18,8 +25,6 @@ public class WindowHelper {
 	}
 	
 	public static void resizeFullScreen(Window window) {
-	    //Dimension dimension = Toolkit.getDefaultToolkit().getScreenSize();
-	    //window.setSize(dimension);
 	    GraphicsDevice gd = GraphicsEnvironment.getLocalGraphicsEnvironment().getDefaultScreenDevice();
 	    if (gd.isFullScreenSupported()) {
     			gd.setFullScreenWindow(window);

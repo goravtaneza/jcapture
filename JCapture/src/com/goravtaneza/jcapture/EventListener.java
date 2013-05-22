@@ -19,6 +19,8 @@ import com.goravtaneza.jcapture.util.MessageDialog;
 
 /**
  * 
+ * Main event listener class
+ * 
  * @author Gorav Taneza
  *
  */
@@ -198,8 +200,9 @@ class EventListener implements ActionListener, IConstants {
 			}
 
 		} catch (NumberFormatException nex) {
+			// TODO Deal with exceptions
 		} catch (Exception e1) {
-			// TODO Auto-generated catch block
+			// TODO Deal with exceptions
 			e1.printStackTrace();
 		}
 

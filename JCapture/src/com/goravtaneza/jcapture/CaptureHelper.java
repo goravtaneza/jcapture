@@ -13,6 +13,8 @@ import javax.imageio.ImageIO;
 
 /**
  * 
+ * Utility class to perform capture via the {@link Robot} class
+ * 
  * @author Gorav Taneza
  *
  */

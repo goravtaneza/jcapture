@@ -8,6 +8,8 @@ import javax.swing.JToolTip;
 
 /**
  * 
+ * Override JToolTip for a custom background 
+ * 
  * @author Gorav Taneza
  *
  */

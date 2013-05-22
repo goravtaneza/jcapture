@@ -10,6 +10,8 @@ import com.goravtaneza.jcapture.util.FileUtil;
 
 /**
  * 
+ * Frame to display the capture preview
+ * 
  * @author Gorav Taneza
  *
  */

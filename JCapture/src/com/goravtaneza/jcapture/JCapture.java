@@ -43,7 +43,8 @@ import com.goravtaneza.jcapture.util.WindowHelper;
  */
 
     /**
-     * Main class for JCapture 
+     * Main class for the JCapture utility
+     *  
      * @author Gorav Taneza
      *
      */

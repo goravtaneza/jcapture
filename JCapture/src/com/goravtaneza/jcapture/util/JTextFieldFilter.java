@@ -6,6 +6,9 @@ import javax.swing.text.PlainDocument;
 
 /**
  * 
+ * Text field filter to prevent undesired input
+ * in the text field
+ * 
  * @author Gaurav Taneja
  *
  */

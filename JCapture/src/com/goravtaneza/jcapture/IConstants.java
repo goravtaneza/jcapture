@@ -37,8 +37,8 @@ public interface IConstants {
 	public static final String ACTION_COMMAND_CAPTURE_SHOW_RADIO="1";
 	public static final String ABOUT_DIALOG_TITLE="About JCapture";
 	public static final String ABOUT_CLOSE_BUTTON_LABEL="OK";
-	
-	
-	
-	
+	public static final String ABOUT_DIALOG_MARKUP_START="<html><b><center>JCapture</center></b><br><center>Version ";
+	public static final String ABOUT_DIALOG_MARKUP_END="</center><br><center>(c) 2013 Gorav Taneza<br><br></center>" + 
+	"<a href=\"www.goravtaneza.com\">www.goravtaneza.com</a><br><br><center>All rights reserved.</center></html>";
+		
 }
